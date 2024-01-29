@@ -18,8 +18,13 @@ exibirMensagemInicial();
 
 function verificarChute() {
     let chute = document.querySelector('input').value;
-    
-    if (chute == numeroSecreto) {
+    if(chute>100) {
+        exibirTextoNaTela('p', 'O número não pode ser maior que 100');
+    }
+    else if (chute==0){
+        exibirTextoNaTela('p', 'O número não pode ser zero');
+    }
+    else if (chute == numeroSecreto) {
         exibirTextoNaTela('h1', 'Acertou!');
         let palavraTentativa = tentativas > 1 ? 'tentativas' : 'tentativa';
         let mensagemTentativas = `Você descobriu o número secreto com ${tentativas} ${palavraTentativa}!`;
