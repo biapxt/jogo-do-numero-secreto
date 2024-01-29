@@ -12,7 +12,7 @@
 <br>
 
 <p align="center">
-  <img alt="projeto alura numero secreto" src=".github/banner.jpg" width="100%">
+  <img alt="projeto alura numero secreto" src="github/banner.jpg" width="100%">
 </p>
 
 ## 🚀 Tecnologias
